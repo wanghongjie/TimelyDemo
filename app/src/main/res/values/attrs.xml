@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimelyLeftView">
+        <attr name="timely_left_normal" format="color" /><!--左侧正常显示颜色-->
+        <attr name="timely_left_checked" format="color" /><!--左侧选中显示颜色-->
+        <attr name="timely_show_time" format="color" /><!--时间展示颜色-->
+        <attr name="timely_show_time_bg" format="color" /><!--时间展示的背景-->
+        <attr name="timely_text_size" format="dimension" /><!--默认刻度标示大小-->
+        <attr name="timely_top_bottom_margin" format="dimension" /><!--默认刻度标示大小-->
+        <attr name="timely_diff" format="dimension" /><!--选中的等差间距-->
+        <attr name="timely_show_time_size" format="dimension" /><!--时间展示字体大小-->
+    </declare-styleable>
+</resources>

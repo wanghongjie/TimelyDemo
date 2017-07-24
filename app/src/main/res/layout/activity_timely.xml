@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wolf.timelydemo.widget.TimelyLeftView
+        android:id="@+id/time_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        app:timely_left_normal="@color/gray"
+        app:timely_left_checked="@color/white"
+        app:timely_text_size="12dp"
+        app:timely_top_bottom_margin="30dp"
+        app:timely_diff="4dp"
+        app:timely_show_time="@color/yellow"
+        app:timely_show_time_size="36dp"
+        app:timely_show_time_bg="@color/alpha_20_black"/>
+
+</merge>
